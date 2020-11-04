@@ -70,6 +70,21 @@ inquirer.prompt([
         message: "What is your README.md tests?",
         name: "tests",
     },
+    {
+        type: "input",
+        message: "What is your GitHub username?",
+        name: "githubUsername"
+    },
+    {
+        type: "input",
+        message: "what is you LinkedIn URL?",
+        name: "linkedinUrl",
+    },
+    {
+        type: "input",
+        message: "What is your email address?",
+        name: "emailAddress",
+    },
 ]).then((response) => {
     console.log(response);
 })
@@ -82,14 +97,17 @@ inquirer.prompt([
 
 // ];
 
-// // function to write README file
+// function to write README file
 // function writeToFile(fileName, data) {
+//     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 // }
 
 // // function to initialize program
 // function init() {
 
 // }
+
+
 
 // // function call to initialize program
 // init();
