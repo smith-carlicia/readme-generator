@@ -4,7 +4,8 @@ const inquirer = require ("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown.js") 
 console.log("Hello world");
 
-inquirer.prompt([
+// inquirer.prompt([
+const questions = [
     {
         type: "input",
         message: "What is your README.md title?",
@@ -85,29 +86,36 @@ inquirer.prompt([
         message: "What is your email address?",
         name: "emailAddress",
     },
-]).then((response) => {
-    console.log(response);
-})
+];
+
+function init() {
+    inquirer.prompt(questions).then(function (name){
+        console.log(name);
+        fs.writeFile("sample-readme.md", name, (err) => 
+            err ? console.log(err) : console.log("Working")
+        );
+    });
+}
+
+
+
+    // function to write README file
+    function writeToFile(fileName, data) {
+        return fs.writeFileSync(path.join(process).cwd(), fileName,data)
+    };
+
+// function to initialize program
+    init();
+
+// ]).then((response) => {
+//     console.log(response);
+//     generateMarkdown (response);
+// })
 
 
 
 
-// // array of questions for user
-// const questions = [
-
-// ];
-
-// function to write README file
-// function writeToFile(fileName, data) {
-//     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
-// }
-
-// // function to initialize program
-// function init() {
-
-// }
 
 
 
-// // function call to initialize program
-// init();
+

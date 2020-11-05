@@ -12,5 +12,13 @@
   },
   "devDependencies": {},
   "keywords": [],
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smith-carlicia/readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smith-carlicia/readme-generator/issues"
+  },
+  "homepage": "https://github.com/smith-carlicia/readme-generator#readme"
 }
