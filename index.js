@@ -91,9 +91,10 @@ const questions = [
 function init() {
     inquirer.prompt(questions).then(function (name){
         console.log(name);
-        fs.writeFile("sample-readme.md", name, (err) => 
-            err ? console.log(err) : console.log("Working")
-        );
+        ).then((response) => {
+    console.log(response);
+    generateMarkdown (;
+})
     });
 }
 
@@ -107,10 +108,7 @@ function init() {
 // function to initialize program
     init();
 
-// ]).then((response) => {
-//     console.log(response);
-//     generateMarkdown (response);
-// })
+
 
 
 
