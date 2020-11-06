@@ -86,34 +86,27 @@ const questions = [
         message: "What is your email address?",
         name: "emailAddress",
     },
-];
+].then(response) => {
+    fs.writeFile("sample-readme.md", name, (err) => 
+    err ? console.log(err) : console.log("Working")
+    )
+};
 
 function init() {
     inquirer.prompt(questions).then(function (name){
         console.log(name);
-        ).then((response) => {
-    console.log(response);
-    generateMarkdown (;
-})
-    });
-}
+    }).then((response) => {
+            console.log(response);
+        }
+    
+    )};
 
-
+// function to initialize program
+init();
 
     // function to write README file
     function writeToFile(fileName, data) {
         return fs.writeFileSync(path.join(process).cwd(), fileName,data)
     };
 
-// function to initialize program
-    init();
-
-
-
-
-
-
-
-
-
-
+   
