@@ -53,9 +53,15 @@ const questions = [
         name: "credits",
     },
     {
-        type: "input",
+        type: "list",
         message: "What is your README.md license?",
         name: "license",
+        choices: [
+            "MIT License",
+            "GVL GPL License",
+            "Apache License",
+            "No License",
+        ],
     },
     {
         type: "input",

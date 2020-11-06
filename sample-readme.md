@@ -23,7 +23,7 @@
   s
 
   ## License :
-  s
+  No License
 
   ## Badge:
   s
