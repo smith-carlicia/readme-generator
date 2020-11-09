@@ -1,9 +1,9 @@
 # 
-  ### Readme.md-generator
+  ### readme.md generator
   [![License: No License](https://img.shields.io/badge/License-No License-brightgreen)](https://opensource.org/license/No License)
 
   ## Description :
-  Command line codebase created to help users create a ReadMe.md file through their local terminal.
+  command line based generator
 
   ## Table of Contents :
   *[Description](#description)
@@ -18,16 +18,16 @@
   *[Tests](#Tests)
 
   ## Installation :
-  Installed through local terminal.
+  command line in local terminal 
 
   ## Usage :
-  To simplify and expedite the process of creating a readme file.
+   To simplify and expedite the process of creating a readme file.
 
   ## Site Link: 
-  https://github.com/smith-carlicia/readme-generator.git
+  
   
   ## GitHub URL:
-  https://github.com/smith-carlicia/readme-generator.git
+   https://github.com/smith-carlicia/readme-generator.git
   ## Credits : 
   Carly Smith
 
