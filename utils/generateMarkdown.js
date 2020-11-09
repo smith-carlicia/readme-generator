@@ -1,14 +1,23 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# 
-  ## Title
-  ${data.title}
+  ### ${data.title}
+  [![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-brightgreen)](https://opensource.org/license/${data.license})
 
   ## Description :
   ${data.description}
 
   ## Table of Contents :
-  ${data.tableOfContents}
+  *[Description](#description)
+  *[Installation](#installation)
+  *[Usage](#usuage)
+  *[Site Link](#Site Link)
+  *[GitHub URL](#GitHub URL)
+  *[Credits](#Credits)
+  *[License](#License)
+  *[Badge](#Badge)
+  *[Contributors](#Contributors)
+  *[Tests](#Tests)
 
   ## Installation :
   ${data.installation}
@@ -27,7 +36,7 @@ function generateMarkdown(data) {
   ## License :
   ${data.license}
 
-  ## Badge:
+  ## Badge :
   ${data.badges}
 
   ## Contributors :
@@ -35,7 +44,14 @@ function generateMarkdown(data) {
 
   ## Test :
   ${data.tests}
-`;
-}
+
+  ## Questions :
+  If you want to contact me :
+
+        GitHub : [${data.githubUsername}](https://github.com/smith-carlicia)
+        Linkedin : [${data.linkedinUrl}](https://www.linkedin.com/in/carlicia-smith-613194b4/)
+        Email : [${data.emailAddress}] <smith.carlicia@gmail.com>
+`
+};
 
 module.exports = generateMarkdown;

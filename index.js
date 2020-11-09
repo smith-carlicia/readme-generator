@@ -34,11 +34,6 @@ const questions = [
     },
     {
         type: "input",
-        message: "What is your README.md usage?",
-        name: "usage",
-    },
-    {
-        type: "input",
         message: "What is your README.md site link?",
         name: "siteLink",
     },
