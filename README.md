@@ -6,14 +6,14 @@ Readme.md Generator is constructed to generate a Sample Readme.md from node.js t
 
 ## Screenshots and video 
 ![demo](/assets/ReadMe.md-generator.gif)
-![demo](/assets/Readme.md-generator-gif(2))
+![demo](/assets/Readme.md-generator-2.gif)
+![readme-2](/assets/sample-readme-2.png)
+![readme-3](/assets/sample-readme-3.png)
+![readme-4](/assets/sample-readme-4.png)
+![readme-5](/assets/sample-readme-5.png)
 
 # Sample ReadMe.md
 ![readme-pic-1](/assets/sample-readme-1.png)
-![readme-pic-2](/assets/sample-readme-2.png)
-![readme-pic-3](/assets/sample-readme-3.png)
-![readme-pic-4](/assets/sample-readme-4.png)
-![readme-pic-5](/assets/sample-readme-5.png)
 
 ## Site Links
 
