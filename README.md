@@ -5,8 +5,8 @@
 Readme.md Generator is constructed to generate a Sample Readme.md from node.js terminal command line. This codebase expedites and simplifies the ReadMe.md building process for users via prompting questions regarding their web application via the command line terminal and generate a new ReadMe.md file with their full codebase information.
 
 ## Screenshots and video 
-![demo](/assets/ReadMe.md_generator_gif.mp4)
-![demo](/assets/Readme.md-generator-gif(2).mp4)
+![demo](/assets/ReadMe.md-generator.gif)
+![demo](/assets/Readme.md-generator-gif(2))
 
 # Sample ReadMe.md
 ![readme-pic-1](/assets/sample-readme-1.png)
